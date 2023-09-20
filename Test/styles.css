@@ -1,0 +1,47 @@
+/* Add your own styles here. This is just a basic example. */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.add-song label, .add-song input, .add-song button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.add-song label {
+    font-weight: bold;
+}
+
+.add-song button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.add-song button:hover {
+    background-color: #555;
+}
+
+.hidden {
+    display: none;
+}
